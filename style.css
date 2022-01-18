@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap');
+
+/* CSS reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar{
+    padding: 24px 34px;
+    background: rgb(114, 9, 9);
+    position: sticky;
+    top: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list{
+    display: flex;
+}
+
+.nav-list li{
+    list-style: none;
+}
+.nav-list li a{
+    padding: 5px 15px;
+}
+.nav-list li a:hover{
+    background-color: rgb(73, 6, 6);
+    border-radius: 18px;
+}
+
+#home{
+    background:rgb(114, 9, 9);
+    height: 100vh;
+}
+
+#home .content{
+    margin: 0 40px;
+    width: 550px;
+    padding: 40px 60px;
+}
+
+#home p:nth-child(1){
+    font-size: 26px;
+    font-weight: 700;
+    color: pink;
+}
+#home p:nth-child(2){
+    font-size: 58px;
+    color: white;
+    font-weight: 900;
+}
+
+#home img{
+    position: absolute;
+    width: 400px;
+    right: 4px;
+    bottom: 2px;
+}
+
+#tips{
+    display: flex;
+    flex-direction: column;
+}
+#tips h2{
+        text-align: center;
+        color: rgb(114, 9, 9);
+        margin-top: 10px;
+}
+
+.tip{
+    display: flex;
+    border: 2px solid pink;
+    border-radius: 3px;
+    height: 300px;
+    margin: 20px 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tip img{
+    height: 100%;
+    margin: 6px;
+}
+
+.tip p{
+    font-size: 28px;
+    margin: 200px;
+}
+
+.rev{
+    flex-direction: row-reverse;
+}
+
+#symptoms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    background-color: pink;
+    padding: 18px;
+    margin: 20px 0;
+}
+
+#symptoms h2{
+    color:rgb(114, 9, 9);
+    letter-spacing: 1px;
+    margin: 18px;
+    font-size: 26px;
+}
+
+#symptoms table,th,td{
+    border: 3px solid rgb(73, 6, 6);
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+th,td{
+    padding: 20px 42px;
+}
+
+#FAQs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#FAQs h1{
+    color: rgb(73, 6, 6);
+    text-align: center;
+    margin: 12px;
+}
+
+.content-wrap{
+    border: 1px solid pink;
+    margin: 12px 20px;
+    border-radius: 3px;
+    
+}
+.para{
+    border: 1px solid pink;
+    margin: 12px 20px;
+    border-radius: 3px;
+    padding: 8px 16px;
+    height: 150px;
+}
+
+.para h3{
+    text-align: center;
+    margin: 12px;
+}
+
+#youtube{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#youtube h1{
+    color: rgb(114, 9, 9);
+    margin: 14px;
+}
+
+#youtube .video{
+    margin: 14px;
+}
+
+footer{
+    background:rgb(114, 9, 9);
+    color: white;
+    text-align: center;
+    padding: 45px 0;
+    margin-top: 14px;
+}
+
